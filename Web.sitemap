@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="Home Page">
+        <siteMapNode url="addstation.aspx" title="Add Station"  description="Add New Police Station" />
+        <siteMapNode url="viewstation.aspx" title="View Station"  description="View All Station" />
+        <siteMapNode url="addfir.aspx" title="Add FIR"  description="Add FIR" />
+        <siteMapNode url="viewfir.aspx" title="View All FIR"  description="View FIR" />
+        <siteMapNode url="" title="Officer"  description="Officer Action">
+           <siteMapNode url="addOfficer.aspx" title="Add New Officer"  description="Add New Officer" />
+          <siteMapNode url="ViewOfficers.aspx" title="View Officers"  description="View Officer" />
+           <!--<siteMapNode url="listusers.aspx" title="List Users"  description="Provides list of users" />-->
+      </siteMapNode>
+      <siteMapNode url="" title="Criminal"  description="Criminal Action">
+        <siteMapNode url="addcriminal.aspx" title="Add New Criminal"  description="Add New Criminal" />
+        <siteMapNode url="Viewcriminal.aspx" title="View Criminal Details"  description="View Criminal" />
+        <!--<siteMapNode url="listusers.aspx" title="List Users"  description="Provides list of users" />-->
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
